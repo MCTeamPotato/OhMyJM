@@ -41,7 +41,7 @@ if (useShadow) {
 }
 
 group = project.maven_group
-version = "${project.minecraft_version}-${project.mod_version}"
+version = project.mod_version
 
 base {
     archivesName = project.archives_name
